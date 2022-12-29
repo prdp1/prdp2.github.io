@@ -1,0 +1,53 @@
+.container{
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.btn{
+    background: rgb(61, 32, 189);
+    color: white;
+}
+
+
+.hex-colors{
+    border:2px solid red;
+}
+
+
+.hex-colors h1{
+    
+    text-align: center;
+    text-transform: uppercase;
+    animation: changecolor 5s infinite alternate;
+}
+
+
+.hex-colors{
+    text-align: center;
+}
+
+@keyframes changecolor {
+    0%{
+        color: indigo;
+    }
+    20%{
+        color: rgb(56, 20, 215);
+    }
+    0%{
+        color: rgb(26, 191, 31);
+    }
+    60%{
+        color: rgb(100, 18, 22);
+    }
+    80%{
+        color: rgb(223, 125, 33);
+    }
+    100%{
+        color: rgb(218, 23, 172);
+    }
+}
